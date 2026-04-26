@@ -92,16 +92,19 @@ export default function CrimeModal({ area, onClose }) {
         style={{
           width: '640px', maxWidth: '65vw',
           height: '100%',
-          borderRadius: '12px',
+          borderRadius: '16px',
           border: `1px solid ${riskCfg.border}80`,
           boxShadow: `0 8px 32px rgba(0,0,0,0.4), 0 0 40px ${riskCfg.color}15`,
-          overflow: 'hidden',
+          padding: '32px',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '24px'
         }}
       >
         {/* ── Header ── */}
         <div
-          className="flex-shrink-0 flex items-start justify-between px-8 py-6"
-          style={{ borderBottom: `1px solid ${riskCfg.border}30`, background: `${riskCfg.bg}80` }}
+          className="flex-shrink-0 flex items-start justify-between pb-6"
+          style={{ borderBottom: `1px solid ${riskCfg.border}30` }}
         >
           <div>
             <div style={{ color: 'var(--text-dim)', fontSize: '11px', letterSpacing: '2px', marginBottom: '8px' }}>
@@ -162,7 +165,7 @@ export default function CrimeModal({ area, onClose }) {
         </div>
 
         {/* ── Body (scrollable) ── */}
-        <div className="flex-1 overflow-y-auto p-6 flex flex-col gap-6">
+        <div className="flex-1 overflow-y-auto pr-2 flex flex-col gap-6" style={{ marginRight: '-8px' }}>
           {/* Charts row */}
           <div className="grid grid-cols-2 gap-6">
 
@@ -303,7 +306,7 @@ export default function CrimeModal({ area, onClose }) {
 
         {/* ── Footer ── */}
         <div
-          className="flex-shrink-0 px-8 py-4 flex items-center justify-between"
+          className="flex-shrink-0 pt-4 flex items-center justify-between"
           style={{ borderTop: `1px solid rgba(255,255,255,0.05)`, fontSize: '11px', color: 'var(--text-dim)' }}
         >
           <div className="flex items-center gap-2">
