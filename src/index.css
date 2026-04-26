@@ -82,6 +82,15 @@ html, body, #root {
   overflow: hidden;
 }
 
+.modal-panel {
+  padding: 24px;
+}
+@media (min-width: 768px) {
+  .modal-panel {
+    padding: 32px;
+  }
+}
+
 /* Scanlines effect */
 .panel::after {
   content: '';

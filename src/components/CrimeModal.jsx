@@ -87,7 +87,7 @@ export default function CrimeModal({ area, onClose }) {
     >
       {/* Dialog */}
       <div
-        className="panel fade-in relative flex flex-col pointer-events-auto w-full h-[90vh] md:w-[640px] md:max-w-[65vw] md:h-full rounded-t-2xl md:rounded-2xl p-6 md:p-8"
+        className="panel modal-panel fade-in relative flex flex-col pointer-events-auto w-full h-[90vh] md:w-[640px] md:max-w-[65vw] md:h-full rounded-t-2xl md:rounded-2xl"
         style={{
           border: `1px solid ${riskCfg.border}80`,
           boxShadow: `0 -8px 32px rgba(0,0,0,0.4), 0 0 40px ${riskCfg.color}15`,
