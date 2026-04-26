@@ -25,7 +25,7 @@ export default function StatsBar({ areas, filters }) {
   }, [areas]);
 
   const Stat = ({ icon: Icon, label, value, highlight, subValue }) => (
-    <div className="flex items-center gap-4 flex-1 min-w-0 px-5"
+    <div className="flex items-center gap-4 flex-1 min-w-[200px] md:min-w-0 px-5 snap-start"
       style={{ borderRight: '1px solid rgba(255,255,255,0.05)' }}>
       <div style={{
         width: '32px', height: '32px', border: '1px solid rgba(255,255,255,0.1)',
@@ -50,9 +50,8 @@ export default function StatsBar({ areas, filters }) {
   );
 
   return (
-    <div className="panel pointer-events-auto mx-4 mb-4"
-      style={{ borderColor: 'rgba(255,255,255,0.08)', borderRadius: '12px', padding: 0, boxShadow: '0 -4px 20px rgba(0,0,0,0.5)' }}>
-      <div className="flex items-stretch" style={{ minHeight: '64px' }}>
+    <div className="panel pointer-events-auto mx-2 mb-2 md:mx-4 md:mb-4 overflow-hidden border border-white/10 rounded-xl shadow-[0_-4px_20px_rgba(0,0,0,0.5)]">
+      <div className="flex items-stretch overflow-x-auto snap-x snap-mandatory hide-scrollbar" style={{ minHeight: '64px' }}>
 
         <div className="flex items-center gap-2 px-5 flex-shrink-0"
           style={{ borderRight: '1px solid rgba(255,255,255,0.05)' }}>

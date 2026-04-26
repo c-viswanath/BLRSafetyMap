@@ -6,13 +6,12 @@ export default function FilterBar({ filters, setFilters, crimeTypes, years }) {
 
   return (
     <div
-      className="panel pointer-events-auto mx-4 mt-4 px-6 py-3"
-      style={{ borderColor: 'rgba(255,255,255,0.08)', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.5)' }}
+      className="panel pointer-events-auto mx-2 mt-2 px-3 py-2 md:mx-4 md:mt-4 md:px-6 md:py-3 border border-white/10 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)]"
     >
-      <div className="flex items-center gap-6 flex-wrap">
+      <div className="flex items-center justify-between md:justify-start gap-3 md:gap-6 flex-wrap">
 
         {/* Logo */}
-        <div className="flex items-center gap-2 flex-shrink-0">
+        <div className="flex items-center gap-2 flex-shrink-0 w-full md:w-auto mb-1 md:mb-0 justify-center md:justify-start">
           <div className="pulse-dot" />
           <span className="glitch-text" style={{
             fontFamily: 'var(--font-mono)', fontSize: '13px',
@@ -26,7 +25,7 @@ export default function FilterBar({ filters, setFilters, crimeTypes, years }) {
           }}>2025 · LIVE DATA</span>
         </div>
 
-        <div style={{ width: '1px', height: '20px', background: 'rgba(255,255,255,0.1)', flexShrink: 0 }} />
+        <div className="hidden md:block" style={{ width: '1px', height: '20px', background: 'rgba(255,255,255,0.1)', flexShrink: 0 }} />
 
         {/* Crime type */}
         <div className="flex items-center gap-2">
@@ -41,7 +40,7 @@ export default function FilterBar({ filters, setFilters, crimeTypes, years }) {
           </select>
         </div>
 
-        <div style={{ width: '1px', height: '20px', background: 'rgba(255,255,255,0.1)', flexShrink: 0 }} />
+        <div className="hidden md:block" style={{ width: '1px', height: '20px', background: 'rgba(255,255,255,0.1)', flexShrink: 0 }} />
 
         {/* Layer toggle */}
         <div className="flex items-center gap-2">
@@ -63,7 +62,7 @@ export default function FilterBar({ filters, setFilters, crimeTypes, years }) {
         </div>
 
         {/* Data source badge */}
-        <div className="ml-auto flex-shrink-0 flex items-center gap-1.5">
+        <div className="ml-auto hidden sm:flex flex-shrink-0 items-center gap-1.5">
           <div style={{
             fontSize: '9px', color: '#555', letterSpacing: '1px', fontFamily: 'var(--font-mono)',
             border: '1px solid #222', padding: '2px 8px',

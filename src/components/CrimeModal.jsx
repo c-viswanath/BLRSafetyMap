@@ -83,19 +83,14 @@ export default function CrimeModal({ area, onClose }) {
   return (
     /* Backdrop */
     <div
-      className="absolute inset-0 z-[2000] flex items-start justify-end pointer-events-none"
-      style={{ padding: '24px' }}
+      className="absolute inset-0 z-[2000] flex items-end md:items-start justify-center md:justify-end pointer-events-none p-0 md:p-6"
     >
       {/* Dialog */}
       <div
-        className="panel fade-in relative flex flex-col pointer-events-auto"
+        className="panel fade-in relative flex flex-col pointer-events-auto w-full h-[90vh] md:w-[640px] md:max-w-[65vw] md:h-full rounded-t-2xl md:rounded-2xl p-6 md:p-8"
         style={{
-          width: '640px', maxWidth: '65vw',
-          height: '100%',
-          borderRadius: '16px',
           border: `1px solid ${riskCfg.border}80`,
-          boxShadow: `0 8px 32px rgba(0,0,0,0.4), 0 0 40px ${riskCfg.color}15`,
-          padding: '32px',
+          boxShadow: `0 -8px 32px rgba(0,0,0,0.4), 0 0 40px ${riskCfg.color}15`,
           display: 'flex',
           flexDirection: 'column',
           gap: '24px'
@@ -136,7 +131,7 @@ export default function CrimeModal({ area, onClose }) {
           </div>
 
           {/* Total stat */}
-          <div className="flex items-start gap-5">
+          <div className="flex flex-col md:flex-row items-end md:items-start gap-2 md:gap-5">
             <div style={{ textAlign: 'right' }}>
               <div style={{ fontSize: '11px', color: 'var(--text-dim)', letterSpacing: '1px', marginBottom: '4px' }}>TOTAL CASES</div>
               <div style={{
@@ -165,9 +160,9 @@ export default function CrimeModal({ area, onClose }) {
         </div>
 
         {/* ── Body (scrollable) ── */}
-        <div className="flex-1 overflow-y-auto pr-2 flex flex-col gap-6" style={{ marginRight: '-8px' }}>
+        <div className="flex-1 overflow-y-auto pr-2 flex flex-col gap-6 hide-scrollbar">
           {/* Charts row */}
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
             {/* Pie chart Card */}
             <div style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', borderRadius: '12px', padding: '20px' }}>
