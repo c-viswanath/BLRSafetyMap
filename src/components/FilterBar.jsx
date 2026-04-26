@@ -6,9 +6,9 @@ export default function FilterBar({ filters, setFilters, crimeTypes, years }) {
 
   return (
     <div
-      className="panel pointer-events-auto mx-2 mt-2 px-3 py-2 md:mx-4 md:mt-4 md:px-6 md:py-3 border border-white/10 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)]"
+      className="panel pointer-events-auto mx-2 mt-2 px-2 py-2 md:mx-4 md:mt-4 md:px-6 md:py-3 border border-white/10 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)]"
     >
-      <div className="flex items-center justify-between md:justify-start gap-3 md:gap-6 flex-wrap">
+      <div className="flex items-center justify-start gap-2 md:gap-6 flex-wrap">
 
         {/* Logo */}
         <div className="flex items-center gap-2 flex-shrink-0 w-full md:w-auto mb-1 md:mb-0 justify-center md:justify-start">
