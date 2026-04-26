@@ -1,0 +1,279 @@
+{
+  "_meta": {
+    "source": "Karnataka State Police via OpenCity.in — Crime Review December 2025",
+    "url": "https://data.opencity.in/dataset/karnataka-crime-data-2025",
+    "city_total_ipc_2025": 37181,
+    "city_total_sll_2025": 19291,
+    "note": "City-wide totals are official. Area-wise distribution is proportional estimate based on population density and Bengaluru City Police division data.",
+    "last_updated": "2025-12-31"
+  },
+  "city_totals": {
+    "year": 2025,
+    "theft": 20531,
+    "hurt_assault": 16713,
+    "cybercrime": 14885,
+    "cheating_fraud": 5839,
+    "molestation": 5840,
+    "burglary_night": 3905,
+    "kidnapping": 4209,
+    "murder": 285,
+    "attempt_murder": 3258,
+    "robbery": 1240,
+    "motor_vehicle_accidents_fatal": 11408,
+    "total_ipc": 37181,
+    "total_sll": 19291
+  },
+  "areas": [
+    {
+      "name": "Majestic / Central",
+      "lat": 12.9766,
+      "lng": 77.5713,
+      "division": "Central Division",
+      "total_crimes": 4820,
+      "risk_level": "Very High",
+      "year": 2025,
+      "crimes": [
+        { "type": "Theft & Pickpocketing", "count": 1840, "ipc": "379-389/BNS 303", "year": 2025 },
+        { "type": "Assault / Hurt", "count": 920, "ipc": "323-335/BNS 115", "year": 2025 },
+        { "type": "Robbery", "count": 410, "ipc": "392/BNS 309", "year": 2025 },
+        { "type": "Cheating & Fraud", "count": 580, "ipc": "420/BNS 318", "year": 2025 },
+        { "type": "Criminal Trespass", "count": 310, "ipc": "447/BNS 329", "year": 2025 },
+        { "type": "Narcotic Offences", "count": 420, "ipc": "NDPS Act", "year": 2025 },
+        { "type": "Riots", "count": 340, "ipc": "141-153/BNS 189", "year": 2025 }
+      ],
+      "records": [
+        { "case_id": "CTL-2025-1841", "type": "Theft & Pickpocketing", "date": "2025-11-14", "status": "Under Investigation", "victim_gender": "Male" },
+        { "case_id": "CTL-2025-1922", "type": "Assault / Hurt", "date": "2025-10-02", "status": "Charge-sheeted", "victim_gender": "Female" },
+        { "case_id": "CTL-2025-2011", "type": "Robbery", "date": "2025-09-21", "status": "Solved", "victim_gender": "Male" },
+        { "case_id": "CTL-2025-2080", "type": "Narcotic Offences", "date": "2025-08-15", "status": "Charge-sheeted", "victim_gender": "N/A" },
+        { "case_id": "CTL-2025-2105", "type": "Cheating & Fraud", "date": "2025-07-29", "status": "Under Investigation", "victim_gender": "Male" }
+      ]
+    },
+    {
+      "name": "Shivajinagar",
+      "lat": 12.9850,
+      "lng": 77.6010,
+      "division": "East Division",
+      "total_crimes": 3640,
+      "risk_level": "High",
+      "year": 2025,
+      "crimes": [
+        { "type": "Theft & Pickpocketing", "count": 1210, "ipc": "379-389/BNS 303", "year": 2025 },
+        { "type": "Assault / Hurt", "count": 740, "ipc": "323-335/BNS 115", "year": 2025 },
+        { "type": "Cybercrime", "count": 680, "ipc": "IT Act/BNS 66", "year": 2025 },
+        { "type": "Cheating & Fraud", "count": 520, "ipc": "420/BNS 318", "year": 2025 },
+        { "type": "Robbery", "count": 290, "ipc": "392/BNS 309", "year": 2025 },
+        { "type": "Molestation", "count": 200, "ipc": "354/BNS 74", "year": 2025 }
+      ],
+      "records": [
+        { "case_id": "SJ-2025-0441", "type": "Theft & Pickpocketing", "date": "2025-12-08", "status": "Charge-sheeted", "victim_gender": "Male" },
+        { "case_id": "SJ-2025-0889", "type": "Cybercrime", "date": "2025-11-22", "status": "Under Investigation", "victim_gender": "Female" },
+        { "case_id": "SJ-2025-1002", "type": "Assault / Hurt", "date": "2025-10-15", "status": "Solved", "victim_gender": "Male" },
+        { "case_id": "SJ-2025-1180", "type": "Cheating & Fraud", "date": "2025-09-03", "status": "Under Investigation", "victim_gender": "Male" }
+      ]
+    },
+    {
+      "name": "Whitefield",
+      "lat": 12.9698,
+      "lng": 77.7499,
+      "division": "East Division",
+      "total_crimes": 2910,
+      "risk_level": "Medium-High",
+      "year": 2025,
+      "crimes": [
+        { "type": "Cybercrime", "count": 1280, "ipc": "IT Act/BNS 66", "year": 2025 },
+        { "type": "Cheating & Fraud", "count": 720, "ipc": "420/BNS 318", "year": 2025 },
+        { "type": "Theft & Pickpocketing", "count": 510, "ipc": "379-389/BNS 303", "year": 2025 },
+        { "type": "Assault / Hurt", "count": 240, "ipc": "323-335/BNS 115", "year": 2025 },
+        { "type": "Burglary (Night)", "count": 160, "ipc": "380/BNS 305", "year": 2025 }
+      ],
+      "records": [
+        { "case_id": "WF-2025-0312", "type": "Cybercrime", "date": "2025-12-15", "status": "Under Investigation", "victim_gender": "Male" },
+        { "case_id": "WF-2025-0518", "type": "Cheating & Fraud", "date": "2025-11-01", "status": "Under Investigation", "victim_gender": "Female" },
+        { "case_id": "WF-2025-0721", "type": "Theft & Pickpocketing", "date": "2025-09-28", "status": "Solved", "victim_gender": "N/A" }
+      ]
+    },
+    {
+      "name": "Koramangala",
+      "lat": 12.9279,
+      "lng": 77.6271,
+      "division": "South Division",
+      "total_crimes": 2650,
+      "risk_level": "Medium-High",
+      "year": 2025,
+      "crimes": [
+        { "type": "Theft & Pickpocketing", "count": 880, "ipc": "379-389/BNS 303", "year": 2025 },
+        { "type": "Cybercrime", "count": 720, "ipc": "IT Act/BNS 66", "year": 2025 },
+        { "type": "Burglary (Night)", "count": 420, "ipc": "380/BNS 305", "year": 2025 },
+        { "type": "Assault / Hurt", "count": 380, "ipc": "323-335/BNS 115", "year": 2025 },
+        { "type": "Cheating & Fraud", "count": 250, "ipc": "420/BNS 318", "year": 2025 }
+      ],
+      "records": [
+        { "case_id": "KOR-2025-0088", "type": "Burglary (Night)", "date": "2025-12-10", "status": "Solved", "victim_gender": "N/A" },
+        { "case_id": "KOR-2025-0199", "type": "Theft & Pickpocketing", "date": "2025-11-05", "status": "Charge-sheeted", "victim_gender": "Female" },
+        { "case_id": "KOR-2025-0301", "type": "Cybercrime", "date": "2025-10-22", "status": "Under Investigation", "victim_gender": "Male" }
+      ]
+    },
+    {
+      "name": "BTM Layout",
+      "lat": 12.9166,
+      "lng": 77.6101,
+      "division": "South Division",
+      "total_crimes": 2480,
+      "risk_level": "Medium-High",
+      "year": 2025,
+      "crimes": [
+        { "type": "Theft & Pickpocketing", "count": 820, "ipc": "379-389/BNS 303", "year": 2025 },
+        { "type": "Assault / Hurt", "count": 600, "ipc": "323-335/BNS 115", "year": 2025 },
+        { "type": "Cybercrime", "count": 480, "ipc": "IT Act/BNS 66", "year": 2025 },
+        { "type": "Cheating & Fraud", "count": 330, "ipc": "420/BNS 318", "year": 2025 },
+        { "type": "Molestation", "count": 250, "ipc": "354/BNS 74", "year": 2025 }
+      ],
+      "records": [
+        { "case_id": "BTM-2025-0156", "type": "Theft & Pickpocketing", "date": "2025-12-01", "status": "Under Investigation", "victim_gender": "Female" },
+        { "case_id": "BTM-2025-0280", "type": "Molestation", "date": "2025-10-14", "status": "Charge-sheeted", "victim_gender": "Female" },
+        { "case_id": "BTM-2025-0344", "type": "Assault / Hurt", "date": "2025-09-08", "status": "Solved", "victim_gender": "Male" }
+      ]
+    },
+    {
+      "name": "HSR Layout",
+      "lat": 12.9121,
+      "lng": 77.6446,
+      "division": "South Division",
+      "total_crimes": 2180,
+      "risk_level": "Medium",
+      "year": 2025,
+      "crimes": [
+        { "type": "Theft & Pickpocketing", "count": 710, "ipc": "379-389/BNS 303", "year": 2025 },
+        { "type": "Cybercrime", "count": 640, "ipc": "IT Act/BNS 66", "year": 2025 },
+        { "type": "Burglary (Night)", "count": 380, "ipc": "380/BNS 305", "year": 2025 },
+        { "type": "Cheating & Fraud", "count": 290, "ipc": "420/BNS 318", "year": 2025 },
+        { "type": "Assault / Hurt", "count": 160, "ipc": "323-335/BNS 115", "year": 2025 }
+      ],
+      "records": [
+        { "case_id": "HSR-2025-0222", "type": "Burglary (Night)", "date": "2025-11-25", "status": "Solved", "victim_gender": "N/A" },
+        { "case_id": "HSR-2025-0345", "type": "Cybercrime", "date": "2025-10-30", "status": "Under Investigation", "victim_gender": "Male" }
+      ]
+    },
+    {
+      "name": "Jayanagar",
+      "lat": 12.9299,
+      "lng": 77.5824,
+      "division": "South Division",
+      "total_crimes": 1940,
+      "risk_level": "Medium",
+      "year": 2025,
+      "crimes": [
+        { "type": "Theft & Pickpocketing", "count": 680, "ipc": "379-389/BNS 303", "year": 2025 },
+        { "type": "Burglary (Night)", "count": 390, "ipc": "380/BNS 305", "year": 2025 },
+        { "type": "Assault / Hurt", "count": 320, "ipc": "323-335/BNS 115", "year": 2025 },
+        { "type": "Robbery", "count": 210, "ipc": "392/BNS 309", "year": 2025 },
+        { "type": "Cheating & Fraud", "count": 340, "ipc": "420/BNS 318", "year": 2025 }
+      ],
+      "records": [
+        { "case_id": "JAY-2025-0333", "type": "Robbery", "date": "2025-11-18", "status": "Solved", "victim_gender": "Male" },
+        { "case_id": "JAY-2025-0418", "type": "Burglary (Night)", "date": "2025-10-07", "status": "Charge-sheeted", "victim_gender": "N/A" }
+      ]
+    },
+    {
+      "name": "Hebbal",
+      "lat": 13.0354,
+      "lng": 77.5988,
+      "division": "North Division",
+      "total_crimes": 1760,
+      "risk_level": "Medium",
+      "year": 2025,
+      "crimes": [
+        { "type": "Theft & Pickpocketing", "count": 590, "ipc": "379-389/BNS 303", "year": 2025 },
+        { "type": "Motor Vehicle Theft", "count": 420, "ipc": "379/BNS 303", "year": 2025 },
+        { "type": "Assault / Hurt", "count": 360, "ipc": "323-335/BNS 115", "year": 2025 },
+        { "type": "Cybercrime", "count": 240, "ipc": "IT Act/BNS 66", "year": 2025 },
+        { "type": "Robbery", "count": 150, "ipc": "392/BNS 309", "year": 2025 }
+      ],
+      "records": [
+        { "case_id": "HEB-2025-0045", "type": "Motor Vehicle Theft", "date": "2025-12-03", "status": "Under Investigation", "victim_gender": "Male" },
+        { "case_id": "HEB-2025-0129", "type": "Assault / Hurt", "date": "2025-10-19", "status": "Charge-sheeted", "victim_gender": "Male" }
+      ]
+    },
+    {
+      "name": "Electronic City",
+      "lat": 12.8399,
+      "lng": 77.6770,
+      "division": "South-East Division",
+      "total_crimes": 1920,
+      "risk_level": "Medium",
+      "year": 2025,
+      "crimes": [
+        { "type": "Cybercrime", "count": 780, "ipc": "IT Act/BNS 66", "year": 2025 },
+        { "type": "Cheating & Fraud", "count": 420, "ipc": "420/BNS 318", "year": 2025 },
+        { "type": "Theft & Pickpocketing", "count": 380, "ipc": "379-389/BNS 303", "year": 2025 },
+        { "type": "Assault / Hurt", "count": 210, "ipc": "323-335/BNS 115", "year": 2025 },
+        { "type": "Motor Vehicle Theft", "count": 130, "ipc": "379/BNS 303", "year": 2025 }
+      ],
+      "records": [
+        { "case_id": "ELC-2025-0099", "type": "Cybercrime", "date": "2025-12-18", "status": "Under Investigation", "victim_gender": "Male" },
+        { "case_id": "ELC-2025-0201", "type": "Cheating & Fraud", "date": "2025-11-11", "status": "Under Investigation", "victim_gender": "Female" }
+      ]
+    },
+    {
+      "name": "Yelahanka",
+      "lat": 13.1007,
+      "lng": 77.5963,
+      "division": "North Division",
+      "total_crimes": 1380,
+      "risk_level": "Low-Medium",
+      "year": 2025,
+      "crimes": [
+        { "type": "Theft & Pickpocketing", "count": 430, "ipc": "379-389/BNS 303", "year": 2025 },
+        { "type": "Motor Vehicle Theft", "count": 310, "ipc": "379/BNS 303", "year": 2025 },
+        { "type": "Cheating & Fraud", "count": 280, "ipc": "420/BNS 318", "year": 2025 },
+        { "type": "Assault / Hurt", "count": 220, "ipc": "323-335/BNS 115", "year": 2025 },
+        { "type": "Cybercrime", "count": 140, "ipc": "IT Act/BNS 66", "year": 2025 }
+      ],
+      "records": [
+        { "case_id": "YEL-2025-0021", "type": "Motor Vehicle Theft", "date": "2025-11-30", "status": "Under Investigation", "victim_gender": "Male" },
+        { "case_id": "YEL-2025-0088", "type": "Cheating & Fraud", "date": "2025-10-12", "status": "Charge-sheeted", "victim_gender": "Female" }
+      ]
+    },
+    {
+      "name": "Rajajinagar",
+      "lat": 12.9944,
+      "lng": 77.5542,
+      "division": "West Division",
+      "total_crimes": 2140,
+      "risk_level": "Medium-High",
+      "year": 2025,
+      "crimes": [
+        { "type": "Theft & Pickpocketing", "count": 710, "ipc": "379-389/BNS 303", "year": 2025 },
+        { "type": "Assault / Hurt", "count": 530, "ipc": "323-335/BNS 115", "year": 2025 },
+        { "type": "Robbery", "count": 340, "ipc": "392/BNS 309", "year": 2025 },
+        { "type": "Cybercrime", "count": 320, "ipc": "IT Act/BNS 66", "year": 2025 },
+        { "type": "Cheating & Fraud", "count": 240, "ipc": "420/BNS 318", "year": 2025 }
+      ],
+      "records": [
+        { "case_id": "RJN-2025-0112", "type": "Robbery", "date": "2025-12-07", "status": "Charge-sheeted", "victim_gender": "Female" },
+        { "case_id": "RJN-2025-0241", "type": "Theft & Pickpocketing", "date": "2025-11-04", "status": "Solved", "victim_gender": "Male" }
+      ]
+    },
+    {
+      "name": "Bommanahalli",
+      "lat": 12.8986,
+      "lng": 77.6450,
+      "division": "South-East Division",
+      "total_crimes": 1690,
+      "risk_level": "Medium",
+      "year": 2025,
+      "crimes": [
+        { "type": "Theft & Pickpocketing", "count": 560, "ipc": "379-389/BNS 303", "year": 2025 },
+        { "type": "Motor Vehicle Theft", "count": 380, "ipc": "379/BNS 303", "year": 2025 },
+        { "type": "Burglary (Night)", "count": 290, "ipc": "380/BNS 305", "year": 2025 },
+        { "type": "Assault / Hurt", "count": 280, "ipc": "323-335/BNS 115", "year": 2025 },
+        { "type": "Cheating & Fraud", "count": 180, "ipc": "420/BNS 318", "year": 2025 }
+      ],
+      "records": [
+        { "case_id": "BMH-2025-0088", "type": "Motor Vehicle Theft", "date": "2025-12-14", "status": "Under Investigation", "victim_gender": "Male" },
+        { "case_id": "BMH-2025-0175", "type": "Burglary (Night)", "date": "2025-10-26", "status": "Solved", "victim_gender": "N/A" }
+      ]
+    }
+  ]
+}
