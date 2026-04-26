@@ -90,7 +90,7 @@ export default function CrimeModal({ area, onClose }) {
       <div
         className="panel fade-in relative flex flex-col pointer-events-auto"
         style={{
-          width: '440px', maxWidth: '45vw',
+          width: '640px', maxWidth: '65vw',
           height: '100%',
           borderRadius: '12px',
           border: `1px solid ${riskCfg.border}80`,
@@ -162,12 +162,12 @@ export default function CrimeModal({ area, onClose }) {
         </div>
 
         {/* ── Body (scrollable) ── */}
-        <div className="flex-1 overflow-y-auto">
+        <div className="flex-1 overflow-y-auto p-6 flex flex-col gap-6">
           {/* Charts row */}
-          <div className="grid grid-cols-2 gap-0" style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
+          <div className="grid grid-cols-2 gap-6">
 
-            {/* Pie chart */}
-            <div className="p-6" style={{ borderRight: '1px solid rgba(255,255,255,0.05)' }}>
+            {/* Pie chart Card */}
+            <div style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', borderRadius: '12px', padding: '20px' }}>
               <div style={{ fontSize: '11px', color: 'var(--text-dim)', letterSpacing: '1px', marginBottom: '16px' }}>
                 CRIME DISTRIBUTION
               </div>
@@ -197,8 +197,8 @@ export default function CrimeModal({ area, onClose }) {
               </div>
             </div>
 
-            {/* Bar chart */}
-            <div className="p-6">
+            {/* Bar chart Card */}
+            <div style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', borderRadius: '12px', padding: '20px' }}>
               <div style={{ fontSize: '11px', color: 'var(--text-dim)', letterSpacing: '1px', marginBottom: '16px' }}>
                 CASE VOLUME
               </div>
@@ -227,8 +227,8 @@ export default function CrimeModal({ area, onClose }) {
             </div>
           </div>
 
-          {/* Crime type IPC details */}
-          <div className="p-6" style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
+          {/* Crime type IPC details Card */}
+          <div style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', borderRadius: '12px', padding: '20px' }}>
             <div style={{ fontSize: '11px', color: 'var(--text-dim)', letterSpacing: '1px', marginBottom: '16px' }}>
               OFFENSE BREAKDOWN
             </div>
@@ -258,9 +258,9 @@ export default function CrimeModal({ area, onClose }) {
             </div>
           </div>
 
-          {/* Case records */}
+          {/* Case records Card */}
           {area.records && area.records.length > 0 && (
-            <div className="p-6">
+            <div style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', borderRadius: '12px', padding: '20px' }}>
               <div className="flex items-center gap-3 mb-5">
                 <div style={{ fontSize: '11px', color: 'var(--text-dim)', letterSpacing: '1px' }}>
                   RECENT RECORDS
